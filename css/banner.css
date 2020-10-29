@@ -1,0 +1,76 @@
+.banner{
+	width: auto;
+	height: 691px;
+	background-image: url(../img/bg2.jpg);
+	background-position: center ;	
+	background-repeat: no-repeat;
+	background-color: #000;
+	text-align: center;
+	padding-top: 53px;
+	display: flex;
+	flex-direction: column;
+	
+}
+
+.banner .link{
+	margin-top: 16px;
+	color: #2997ff;
+}
+.banner a{
+	color: #2997ff;
+	text-decoration: none;
+	font-size: 19px;
+	line-height: 1.21053;
+	font-weight: 400;
+	letter-spacing: .012em;
+	font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+.banner .link a:nth-child(2){
+	margin-left: 35px;
+}
+.banner .link a:hover{
+	text-decoration: underline;
+}
+.banner .tile-grid{
+	height: 132px;
+	width: 210px;
+	margin: 360px auto;
+	
+	display: flex;
+	flex-direction: column;
+	
+	color: #fff;
+	text-align: center;
+	font-size: 21px;
+	line-height: 1.381;
+	font-weight: 400;
+	letter-spacing: .011em;
+	font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+.banner .tile-grid .headline{
+	    font-weight: 600;
+}
+.banner .tile-grid p{
+	font-size: 21px;
+	color: #a1a1a6;
+}
+.banner .tile-grid p:nth-child(3){
+	margin-top: 17px;
+}
+.banner h1{
+	color: #fff;
+	font-size: 48px;
+	line-height: 1.08349;
+	font-weight: 600;
+	letter-spacing: -.002em;
+	font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+.banner h2{
+	margin-top: 5px;
+	color: #fff;
+	font-size: 24px;
+	line-height: 1.16667;
+	font-weight: 400;
+	letter-spacing: .009em;
+	font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+}

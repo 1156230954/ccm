@@ -1,0 +1,104 @@
+.hbanner{
+	display: flex;
+	
+}
+
+.hbanner .banner_small{
+	height: 490px;
+	flex: 1;
+	background-color: #fafafa;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	padding-bottom: 42px;
+	text-align: center;
+}
+.hbanner .banner_small .link{
+	margin-top: 13.6px;
+}
+.hbanner .banner_small h5{
+	font-size: 19px;
+	line-height: 1.21053;
+	font-weight: 400;
+	letter-spacing: .012em;
+	font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+.hbanner .banner_small h4{
+	    font-size: 32px;
+	    line-height: 1.125;
+	    font-weight: 600;
+	    letter-spacing: .002em;
+	    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+.hbanner .banner_small .link a{
+	
+	color: #2997ff;
+	text-decoration: none;
+	font-size: 17px;
+	line-height: 1.21053;
+	font-weight: 400;
+	letter-spacing: .012em;
+	font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+
+.hbanner .banner_small .link a:nth-child(2){
+	margin-left: 27px;
+}
+
+.hbanner .banner_small:nth-child(1){
+	margin: 10px 5px 10px 10px;
+	background-image: url(../img/ipad.jpg);
+	/* background-size: 100% auto; */
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.hbanner .banner_small:nth-child(2){
+	margin: 10px 10px 10px 5px;
+	background-image: url(../img/mini.jpg);
+	/* background-size: 100% auto; */
+	background-position: center;
+	background-repeat: no-repeat;
+}
+/* 媒体查询 */
+@media only screen and (max-width:1070px) {
+	.banner{
+		height: 591px;
+		background-size: 900px auto; 
+		/* background-size: 80%; */
+	}
+	.banner .tile-grid{
+		margin: 285px auto;
+	}
+}
+
+@media only screen and (max-width:768px){
+	.banner{
+		height: 600px;
+		background-image: url(../img/bgs.jpg);
+		background-size: 800px auto;
+	}
+	.banner .tile-grid{
+		margin: 350px auto;
+	}
+	.banner h1{
+		font-size: 32px;
+	}
+	.banner h2{
+		font-size: 19px;
+	}
+	.banner .tile-grid .headline{
+		font-size: 19px;
+	}
+	.banner .tile-grid p{
+		font-size: 19px;
+	}
+	.hbanner .banner_small{
+		width: auto;
+		margin: 10px !important;
+		height: 548px;
+		padding: 0;
+	}
+	.hbanner{
+		display: block;
+	}
+}
